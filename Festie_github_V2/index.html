@@ -23,7 +23,7 @@ html,body{margin:0;height:100%;overflow:hidden;overscroll-behavior:none;-webkit-
 *::-webkit-scrollbar{display:none;width:0;height:0}
 input::placeholder,textarea::placeholder{color:rgba(10,10,10,0.55);opacity:1}
 #festie-stage{position:fixed;top:0;right:0;bottom:0;left:0;overflow:hidden}
-#festie-stage>div,#festie-stage>div>div{width:100%!important;height:100%!important;max-width:none!important}
+#festie-stage>div,#festie-stage>div>[id^="screen-"]{width:100%!important;height:100%!important;max-width:none!important}
 #festie-stage main{overflow-y:auto!important;-webkit-overflow-scrolling:touch}
 .app-mode .sb{height:max(44px, env(safe-area-inset-top))!important;box-sizing:border-box}
 .app-mode .sb>*{visibility:hidden}
